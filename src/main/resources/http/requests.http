@@ -1,0 +1,47 @@
+POST http://localhost/signIn
+Content-Type: application/json
+
+{
+  "login": "dianchik@gmail.com",
+  "password": "123"
+}
+
+###
+
+GET http://localhost/films
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NSIsIm5hbWUiOiJEaWFuY2hpayIsInJvbGUiOiJBRE1JTiJ9.KfFUcNvW3uWSEPO8O58PDaII516jAY7_CrML8ROl6Qg
+
+###
+
+GET http://localhost/films/3
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NSIsIm5hbWUiOiJEaWFuY2hpayIsInJvbGUiOiJBRE1JTiJ9.KfFUcNvW3uWSEPO8O58PDaII516jAY7_CrML8ROl6Qg
+
+###
+
+GET http://localhost/actors
+
+###
+
+GET http://localhost/checklists/init
+
+###
+
+GET http://localhost/checklists
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NSIsIm5hbWUiOiJEaWFuY2hpayIsInJvbGUiOiJBRE1JTiJ9.KfFUcNvW3uWSEPO8O58PDaII516jAY7_CrML8ROl6Qg
+
+###
+
+GET http://localhost/users
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NSIsIm5hbWUiOiJEaWFuY2hpayIsInJvbGUiOiJBRE1JTiJ9.KfFUcNvW3uWSEPO8O58PDaII516jAY7_CrML8ROl6Qg
+
+###
+
+DELETE http://localhost/users/42
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NSIsIm5hbWUiOiJEaWFuY2hpayIsInJvbGUiOiJBRE1JTiJ9.KfFUcNvW3uWSEPO8O58PDaII516jAY7_CrML8ROl6Qg
+
+###
+
+GET http://localhost/self
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NSIsIm5hbWUiOiJEaWFuY2hpayIsInJvbGUiOiJBRE1JTiJ9.KfFUcNvW3uWSEPO8O58PDaII516jAY7_CrML8ROl6Qg
+
+###
